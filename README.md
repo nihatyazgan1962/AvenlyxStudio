@@ -31,7 +31,7 @@ FORMATCI/
 ├── web/                      # Web uygulaması bileşenleri (planlandığında)
 │
 ├── dist/                     # Nihai dağıtım ve çalıştırılabilir paketler
-│   ├── desktop/              # Bağımsız masaüstü dağıtımı (Formatci.exe + Qt/MinGW DLL'leri + baslat.bat)
+│   ├── desktop/              # Bağımsız masaüstü dağıtımı (AvenlyxStudio.exe + Qt/MinGW DLL'leri + baslat.bat)
 │   └── mobile/               # Mobil APK paketleri (AvenlyxStudio-debug.apk, AvenlyxStudio.apk)
 │
 ├── README.md                 # Proje ana dokümantasyonu
@@ -48,7 +48,7 @@ Masaüstü uygulaması ve tüm çalışma zamanı bağımlılıkları `dist/desk
 ```cmd
 dist\desktop\baslat.bat
 ```
-veya doğrudan `dist\desktop\Formatci.exe` dosyasına çift tıklayabilirsiniz.
+veya doğrudan `dist\desktop\AvenlyxStudio.exe` dosyasına çift tıklayabilirsiniz.
 
 ---
 
@@ -98,7 +98,7 @@ cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="C:\
 cmake --build build --parallel
 
 # Çalışma zamanı bağımlılıklarını yerleştirme (windeployqt)
-C:\Qt\6.8.0\mingw_64\bin\windeployqt.exe --release build\Formatci.exe
+C:\Qt\6.8.0\mingw_64\bin\windeployqt.exe --release build\AvenlyxStudio.exe
 ```
 
 Nihai derleme çıktısı `dist/desktop/` dizinine kopyalanarak dağıtıma hazır hale getirilir.
