@@ -1,0 +1,27 @@
+# C++ / CMake / Qt Desktop build outputs
+desktop/build/
+desktop/.venv/
+desktop/aqtinstall.log
+CMakeUserPresets.json
+*.autosave
+
+# Android / Gradle build outputs
+mobile/.gradle/
+mobile/.kotlin/
+mobile/app/build/
+mobile/local.properties
+mobile/*.iml
+mobile/app/*.iml
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.bak
+*~
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+.DS_Store

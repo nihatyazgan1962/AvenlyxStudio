@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <cache-path
+        name="studio_cache"
+        path="." />
+    <files-path
+        name="studio_files"
+        path="." />
+    <external-files-path
+        name="studio_external_files"
+        path="." />
+    <external-cache-path
+        name="studio_external_cache"
+        path="." />
+</paths>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Avenlyx Studio</string>
+    <string name="notification_channel_name">Medya İşleme Durumu</string>
+    <string name="notification_channel_desc">Video, ses ve resim dönüştürme ilerlemesini gösterir.</string>
+</resources>
+
