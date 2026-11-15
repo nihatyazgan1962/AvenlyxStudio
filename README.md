@@ -28,8 +28,6 @@ FORMATCI/
 │   ├── SUPPORTED_FORMATS.md  # Motor ve cihaz bazlı gerçek format matrisi
 │   └── KNOWN_LIMITATIONS.md  # Bilinen platform ve Media3 sınırlamaları
 │
-├── web/                      # Web uygulaması bileşenleri (planlandığında)
-│
 ├── dist/                     # Nihai dağıtım ve çalıştırılabilir paketler
 │   ├── desktop/              # Bağımsız masaüstü dağıtımı (AvenlyxStudio.exe + Qt/MinGW DLL'leri + baslat.bat)
 │   └── mobile/               # Mobil APK paketleri (AvenlyxStudio-debug.apk, AvenlyxStudio.apk)
@@ -130,10 +128,4 @@ Nihai derleme çıktısı `dist/desktop/` dizinine kopyalanarak dağıtıma haz�
   .\gradlew.bat testDebugUnitTest assembleDebug
   ```
 - Ayrıntılı mobil dokümanlar: [mobile/README.md](mobile/README.md), [mobile/SUPPORTED_FORMATS.md](mobile/SUPPORTED_FORMATS.md), [mobile/KNOWN_LIMITATIONS.md](mobile/KNOWN_LIMITATIONS.md), [mobile/CHANGELOG_DEV.md](mobile/CHANGELOG_DEV.md).
-
----
-
-## 🌐 Web Yol Haritası
-
-- **`web/`**: WebAssembly (ffmpeg.wasm) veya arka uç destekli hafif web dönüştürücü arayüzü.
 
