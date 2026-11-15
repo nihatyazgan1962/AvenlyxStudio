@@ -1,4 +1,4 @@
-# FORMATCI Media Studio ProGuard rules
+# AVENLYX Studio ProGuard rules
 -keepclassmembers class * {
     @android.webkit.JavascriptInterface <methods>;
 }

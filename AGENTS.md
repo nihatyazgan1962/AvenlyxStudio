@@ -1,4 +1,4 @@
-# FORMATCI — Agent Guidelines
+# AVENLYX Studio — Agent Guidelines
 
 Follow this directory layout strictly for all tasks:
 - `desktop/`: Desktop codebase (C++20, Qt 6 Widgets, CMake).

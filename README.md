@@ -1,10 +1,10 @@
-# AVENLYX Studio (FORMATÇI) — Profesyonel Medya Düzenleme ve Dönüştürme Stüdyosu
+# AVENLYX Studio — Profesyonel Medya Düzenleme ve Dönüştürme Stüdyosu
 
 <p align="center">
   <img src="program.png" alt="AVENLYX Studio Arayüzü" width="100%" />
 </p>
 
-**AVENLYX Studio (FORMATÇI)**, modern C++20 ve Qt 6 Widgets arayüzü ile güçlendirilmiş masaüstü stüdyosu ve Kotlin, Jetpack Compose ile AndroidX Media3 ile güçlendirilmiş %100 çevrimdışı mobil stüdyosuyla; resim, video ve ses dosyalarını çok kanallı zaman çizelgesi (Timeline), canlı önizleme, efekt/ses mikseri ve toplu dönüştürme yetenekleriyle işleyen profesyonel bir medya çözümüdür.
+**AVENLYX Studio**, modern C++20 ve Qt 6 Widgets arayüzü ile güçlendirilmiş masaüstü stüdyosu ve Kotlin, Jetpack Compose ile AndroidX Media3 ile güçlendirilmiş %100 çevrimdışı mobil stüdyosuyla; resim, video ve ses dosyalarını çok kanallı zaman çizelgesi (Timeline), canlı önizleme, efekt/ses mikseri ve toplu dönüştürme yetenekleriyle işleyen profesyonel bir medya çözümüdür.
 
 ---
 
@@ -13,7 +13,7 @@
 Bu proje ve sonraki tüm uygulamalar için geçerli olan standart hiyerarşi:
 
 ```
-FORMATCI/
+AvenlyxStudio/
 │
 ├── desktop/                  # Masaüstü uygulaması kaynak kodları ve derleme ortamı
 │   ├── src/                  # C++20 & Qt 6 kaynak kodları (.cpp, .h)
